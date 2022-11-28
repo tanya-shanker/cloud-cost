@@ -1,0 +1,47 @@
+{
+   "metric" :[
+    {
+    "name": "cpu",
+    "resource" : "cluster",
+    "under-utilised" :{
+        "name" : "node1",
+        "worker-pool": "abc",
+        "avg-value" : "23"
+    },
+    "over-utilised" :{
+        "name" : "node2",
+        "worker-pool": "abc",
+        "avg-value" : "96"
+    }
+},
+{
+    "name": "disk",
+    "resource" : "cloudant",
+    "under-utilised" :{
+        "name" : "node1",
+        "worker-pool": "abc",
+        "avg-value" : "23"
+    },
+    "over-utilised" :{
+        "name" : "node2",
+        "worker-pool": "abc",
+        "avg-value" : "96"
+    }
+
+},{
+    "name": "disk",
+    "resource" : "cluster",
+    "under-utilised" :{
+        "name" : "node1",
+        "worker-pool": "abc",
+        "avg-value" : "23"
+    },
+    "over-utilised" :{
+        "name" : "node2",
+        "worker-pool": "abc",
+        "avg-value" : "96"
+    }
+   
+}
+   ]
+}

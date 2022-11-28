@@ -1,0 +1,21 @@
+{
+    "alert-name": "cpu",
+    "data" : [
+        {
+            "name" :"node1",
+            "avg-value":"23"
+
+        },
+        {
+            "name" :"node2",
+            "avg-value":"96"
+
+        },
+        {
+            "name" :"node3",
+            "avg-value":"46"
+
+        }
+]
+
+}

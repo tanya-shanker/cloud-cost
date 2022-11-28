@@ -1,0 +1,19 @@
+alerts:
+resource:
+  - cluster:
+      - parameter: cpu-utilisation
+        min-utilisation: 30
+        max-utilisation: 90
+      - parameter: memory-utilisation
+        min-utilisation: 30
+        max-utilisation: 90
+  - cloudant:
+      - parameter: disk-utilisation
+        min-utilisation: 30
+        max-utilisation: 90
+      - parameter: ram-utilisation
+        min-utilisation: 30
+        max-utilisation: 90
+      - parameter: iops
+        min-utilisation: 30
+        max-utilisation: 90
